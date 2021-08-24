@@ -6,6 +6,10 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
+/*
+This class represents the theatre table
+ */
+
 @Data
 @Entity
 @Table(name = "theatre")

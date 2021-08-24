@@ -2,7 +2,6 @@ package com.gj.ticketbooker.controller;
 
 import com.gj.ticketbooker.model.TicketRequest;
 import com.gj.ticketbooker.model.TicketResponse;
-import com.gj.ticketbooker.service.BookingService;
 import com.gj.ticketbooker.service.IBookingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -12,6 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.ExecutionException;
 
+/*
+This class contains the method for the exposed API
+ */
 @RestController
 @RequestMapping("/api/v1")
 public class TicketBookerController {

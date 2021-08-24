@@ -9,7 +9,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
-import org.springframework.scheduling.annotation.EnableAsync;
 
 import javax.sql.DataSource;
 import java.util.Properties;
@@ -22,7 +21,6 @@ This class contains the beans required for connecting to database
 @Configuration
 @EnableJpaRepositories("com.gj.ticketbooker.*")
 @EntityScan("com.gj.ticketbooker.*")
-@EnableAsync
 public class DbConfiguration {
     @Value("${spring.datasource.driver-class-name}")
     private String dbDriver;

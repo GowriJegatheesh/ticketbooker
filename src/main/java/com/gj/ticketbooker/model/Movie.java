@@ -6,6 +6,9 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
+/*
+This class represents the movie table
+ */
 
 @Data
 @Entity

@@ -6,6 +6,9 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+/*
+This class represents the TicketRequest model
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
