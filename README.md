@@ -14,6 +14,6 @@ Ensure that you create a database called ticketbooker prior running this applica
 The spring boot application autocreates the required tables. Also some values are loaded to database by default. I have added the schema.sql just in case if it is required. 
 
 ### Software Version
-Java                 : 1.8
+Java                 : 1.8<br>
 Mysql Server version : 8.0.26-0
 
